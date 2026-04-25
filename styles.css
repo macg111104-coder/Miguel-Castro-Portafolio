@@ -178,3 +178,19 @@ section, div[id] {
   background-color: #274442 !important;
   color: white !important;
 }
+
+/*Download full resume button*/
+.cv-pill {
+  transition: all 0.3s ease; 
+  cursor: pointer;
+  background-color: transparent;
+}
+
+/* Hovering efect */
+.cv-pill:hover {
+  background-color: #274442 !important; 
+  color: #ffffff !important;           
+  border-color: #274442 !important;    
+  transform: translateY(-2px);         
+  box-shadow: 0 4px 8px rgba(39, 68, 66, 0.2); 
+}
